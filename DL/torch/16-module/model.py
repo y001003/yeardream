@@ -77,6 +77,6 @@ class ImageClassifier(nn.Module):
     
     def forward(self, x):
         # |x| = (batch size, input_size)
-        y = self.block(x) # 
+        y = self.layers(x) # 
         # |y| = (batch_size, output_size)
         return y
