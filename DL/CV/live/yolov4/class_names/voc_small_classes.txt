@@ -1,0 +1,8 @@
+aeroplane
+bird
+foot
+hand
+head
+person
+train
+tvmonitor
